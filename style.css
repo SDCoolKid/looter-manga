@@ -43,3 +43,18 @@ header{
 .nav a:hover{
     color: #00ADB5;
 }
+
+.manga-sec{
+    margin-top: 50px;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.manga-img img{
+    width: 200px;
+    height: 200px;
+}
