@@ -49,77 +49,35 @@ header {
 
 /* Cummunication card */
 
-.C-card {
+.c-sec{
   display: flex;
-  margin: 80px;
-  flex-wrap: wrap;
-  text-align: right;
+  justify-content: center;
+  height: 90vh;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
-.C-card a {
-  width: 1600px;
-  height: 60px;
-  background-color: #00adb5; /* need chnage */
-  margin-top: 50px;
-  position: relative;
-  transition: 0.6s;
-  border-radius: 20px;
+.c-card{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00adb5;
+  height: 80px;
+  margin-bottom: 50px;
+  padding: 0px 20px;
+  border-radius: 15px;
+  translate: 7s ease;
+  text-decoration: none;
+  transition: ease 0.7s;
 }
 
-.C-card a:hover {
-  transform: scale(1.06);
+.c-card:hover{
+  transform: scale(1.06, 1.06);
 }
 
-.a-1:after {
-  content: "ديسكورد";
-  color: black;
-  position: absolute;
-  right: 45px;
-  bottom: 15px;
-  font-size: larger;
-}
-
-.a-2:after {
-  content: "فيسبوك";
-  color: black;
-  position: absolute;
-  right: 45px;
-  bottom: 15px;
-  font-size: larger;
-}
-
-.a-3:after {
-  content: "انستجرام";
-  color: black;
-  position: absolute;
-  right: 45px;
-  bottom: 15px;
-  font-size: larger;
-}
-
-.icon-1 {
-  position: absolute;
-  bottom: 405px;
-  font-size: 35px;
-  left: 105px;
-}
-
-.icon-2 {
-  position: absolute;
-  bottom: 295px;
-  font-size: 35px;
-  left: 105px;
-}
-
-.icon-3 {
-  position: absolute;
-  bottom: 185px;
-  font-size: 35px;
-  left: 105px;
-}
-
-/*footer*/
-
-footer {
-  /* footer things*/
+.txt1, .txt2{
+  color: #eeeeee;
+  font-size: 20px;
 }
