@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Cairo', sans-serif;
+    background-color: #222831;
 }
 
 header{
@@ -11,7 +12,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px #EEEEEE;
 }
 
 .logo{
@@ -36,8 +37,9 @@ header{
 .nav a{
     text-decoration: none;
     margin-left: 20px;
+    color: #EEEEEE;
 }
 
 .nav a:hover{
-    color: black;
+    color: #00ADB5;
 }
