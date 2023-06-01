@@ -1,60 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+/*imp*/
 
-body{
-    font-family: 'Cairo', sans-serif;
-    background-color: #222831;
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #222831;
 }
 
-header{
-    width: 100%;
-    height: 50px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: solid 1px #EEEEEE;
+/*header*/
+
+header {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px #eeeeee;
 }
 
-.logo{
-    width: 40px;
-    height: 40px;
-    margin-left: 30px;
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
 }
 
-.logo-img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px;
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
 }
 
-.nav a{
-    text-decoration: none;
-    margin-left: 20px;
-    color: #EEEEEE;
+.nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #eeeeee;
 }
 
-.nav a:hover{
-    color: #00ADB5;
+.nav a:hover {
+  color: #00adb5;
 }
 
-.manga-sec{
-    margin-top: 50px;
+/*manga section*/
+
+.manga-sec {
+  margin-top: 50px;
 }
 
-.card{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+.card {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
 }
 
-.manga-img img{
-    width: 200px;
-    height: 200px;
+.manga-img img {
+  width: 200px;
+  height: 200px;
+}
+
+/*footer*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  background-color: #393e46;
+}
+
+@media (max-width: 400px) {
+  footer {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+.left-t {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-t a {
+  text-decoration: none;
+  color: black;
+}
+
+.left-t a:hover {
+  color: #00adb5;
+}
+
+.left-t .icons {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #00adb5;
 }
