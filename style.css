@@ -52,22 +52,38 @@ header {
 
 .manga-sec {
   margin-top: 50px;
+  position: relative;
 }
 
 .card {
   width: 200px;
   height: 200px;
   overflow: hidden;
+  position: relative;
 }
 
 .manga-img img {
   width: 200px;
   height: 200px;
+  position: absolute;
+  z-index: -1;
+}
+
+.manga-img {
+  z-index: -1;
+}
+
+.manga-header {
+  height: 30px;
+  position: absolute;
+  bottom: 5px;
+  right: 3px;
 }
 
 /*footer*/
 
 footer {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   padding-top: 60px;
