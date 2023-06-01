@@ -46,3 +46,45 @@ header {
 .nav a:hover {
   color: #00adb5;
 }
+
+/*footer*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  background-color: #393e46;
+}
+
+@media (max-width: 400px) {
+  footer {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+.left-t {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-t a {
+  text-decoration: none;
+  color: black;
+}
+
+.left-t a:hover {
+  color: #00adb5;
+}
+
+.left-t .icons {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #00adb5;
+}
