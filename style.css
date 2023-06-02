@@ -51,13 +51,20 @@ header {
 /*manga section*/
 
 .manga-sec {
+  height: 100vh;
   margin-top: 50px;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 
 .card {
+  margin-right: 80px;
+  margin-left: 50px;
   width: 200px;
   height: 200px;
+  border-radius: 20px;
   overflow: hidden;
   position: relative;
 }
@@ -74,10 +81,15 @@ header {
 }
 
 .manga-header {
-  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: #393e4696;
   position: absolute;
-  bottom: 5px;
-  right: 3px;
+  bottom: 0px;
 }
 
 /*footer*/
