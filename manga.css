@@ -79,6 +79,11 @@ header {
   border-radius: 20px;
   overflow: hidden;
   position: relative;
+  transition: 0.8s;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .manga-img img {

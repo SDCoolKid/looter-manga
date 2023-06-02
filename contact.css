@@ -49,6 +49,10 @@ header {
 
 /* Cummunication card */
 
+.cards {
+  margin-bottom: 50px;
+}
+
 .content {
   display: flex;
   justify-content: center;
