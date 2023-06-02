@@ -47,6 +47,63 @@ header {
   color: #00adb5;
 }
 
+/*manga-section*/
+
+.manga-section {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.sec {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.name-sec {
+  position: absolute;
+  top: -70px;
+}
+
+.card {
+  margin-right: 65px;
+  margin-left: 65px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.manga-img img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  z-index: -1;
+}
+
+.manga-img {
+  z-index: -1;
+}
+
+.manga-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: #393e4696;
+  position: absolute;
+  bottom: 0px;
+}
+
 /*footer*/
 
 footer {
